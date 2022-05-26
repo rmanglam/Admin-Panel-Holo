@@ -1,0 +1,24 @@
+// Import Fuse core library
+@import "@fuse/scss/core";
+
+// Import app.theme.scss
+@import "app/app.theme";
+
+// Import form theme
+@import "assets/styles/form.scss";
+
+@import "../node_modules/ag-grid-community/dist/styles/ag-grid.css";
+@import "../node_modules/ag-grid-community/dist/styles/ag-theme-material.css";
+
+.fullscreen-grid {
+    width: 100%;
+    height: 100%;
+}
+
+.hidden-select div.mat-select-arrow-wrapper {
+    display: none;
+}
+
+.hidden-select.mat-select {
+    display: inline;
+}
